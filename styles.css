@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
+/* General Section */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +27,16 @@ img {
     max-width: 100%;
 }
 
+cite {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--SoftBlue);
+}
+
+cite > span {
+    color: var(--White);
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -42,6 +54,8 @@ img {
     background-color: var(--CardBG);
     border-radius: 10px;
 }
+
+/* Hero Section */
 
 #heroImage {
     width: 275px;
@@ -67,33 +81,48 @@ img {
     color: var(--SoftBlue);
 }
 
-#eth,
-#clock,
-.stats {
+/* Price and Time Section */
+
+#price,
+#time,
+#priceCheck{
     display: flex;
 }
 
-.stats {
+#priceCheck {
     justify-content: space-between;
+    border-bottom: 1px solid var(--Line);
+    padding-bottom: 1rem;
+
 }
 
-#ethImage,
-#clockImage {
+#priceImage,
+#timeImage {
     margin-right: 0.5rem;
 }
 
-#eth {
+#price {
     color: var(--Cyan);
 }
 
-#clock {
+#time {
     color: var(--SoftBlue);
+}
+
+/* Author Section */
+
+#authorNotes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    padding: 1rem 0;
 }
 
 #author {
     display: inline;
     width: 30px;
-    height: 30px;
+    margin-right: 1rem;
     border: 1px solid var(--White);
     border-radius: 50%;
 }
