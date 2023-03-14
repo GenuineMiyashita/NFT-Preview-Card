@@ -49,3 +49,51 @@ img {
     margin: 1rem auto;
     border-radius: 10px;
 }
+
+#heroText {
+    width: 85%;
+    text-align: left;
+}
+
+#heroText > h1 {
+        font-size: 25px;
+        color: var(--White);
+        margin: 0.5rem auto;
+
+}
+
+#heroText > p { 
+    margin: 1rem auto;
+    color: var(--SoftBlue);
+}
+
+#eth,
+#clock,
+.stats {
+    display: flex;
+}
+
+.stats {
+    justify-content: space-between;
+}
+
+#ethImage,
+#clockImage {
+    margin-right: 0.5rem;
+}
+
+#eth {
+    color: var(--Cyan);
+}
+
+#clock {
+    color: var(--SoftBlue);
+}
+
+#author {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
