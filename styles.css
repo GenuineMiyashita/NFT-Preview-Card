@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --MainBG: hsl(217, 54%, 11%);
+    --CardBG: hsl(216, 50%, 16%);
+    --Line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--MainBG);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 100dvh;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    background-color: var(--CardBG);
+    border-radius: 10px;
+}
+
+#heroImage {
+    width: 275px;
+    height: 275px;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
