@@ -22,24 +22,24 @@ Your users should be able to:
 
 ### Screenshot
 
-![](./assets/images/Final.png)
+![](images/Final.png)
 
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-component-6zpPHXUzZa)
-- Live Site URL: [Live](https://genuinemiyashita.github.io/Results-Summary-Component/)
+- Live Site URL: [Live](https://genuinemiyashita.github.io/NFT-Preview-Card/)
 
 ## My process
 
-As usual, I started with a mobile approach using Chrome's developer tools and using an iPhone SE as my workbench, followed by an iPad Mini as my next workbench to setup my media queries for the transition between mobile to desktop. Once I got it to look the way that, I went through the code alone making minor touch-ups in terms of font-sizes and alignments.
+Started with the mobile approach and worked my way up to larger breakpoints. Tried taking into account both landscape and portrait mode for breakpoints around an ipad Mini/Air.
 
 ### What I learned
 
-This challenge helped as additional practice with flexbox as I always feel that I don't understand it as much as I actually do once I start working on a project. This challenge helped me practice styling individual list elements and working with hsla as I tend to favor hex codes.
+Getting comfortable with vanilla HTML/CSS, however, this time I tried to focus around media queries and just trying different situations out before settling on the selected breakpoints, which I based off Bootstrap's breakpoints for devices. I believe that this challenge marks the graduation into CSS frameworks and breaking those until I understand them.
 
 ### Continued development
 
-I want to start incorporating grid either natively or actually start taking the time to start using Bootstrap and/or Bulma. I always end up completely removing them or using an extreme minimal amount, however, I want to complete one project that looks decent that actually uses them to a larger extent.
+As mentioned in the previous section, I'm going to move into utilizing or attempting to utilize CSS frameworks and getting practice with them where possible. It highly depends on future challenges as it might just be completely unnecessary to add them compared to just vanilla CSS.
 
 ## Author
 
