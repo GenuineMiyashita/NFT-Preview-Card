@@ -55,7 +55,7 @@ cite > span:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 83%;
+    width: 90%;
     background-color: var(--CardBG);
     border-radius: 10px;
 }
@@ -63,11 +63,11 @@ cite > span:hover {
 /* Hero Section */
 
 #heroImage {
-    width: 300px;
-    height: 300px;
-    margin: 0.25rem auto;
-    padding: 1rem;
-    border-radius: 1.563rem;
+    width: 325px;
+    height: 325px;
+    margin: 0.5rem auto;
+    padding: 1.10rem;
+    border-radius: 30px;
 }
 
 #image {
@@ -103,7 +103,7 @@ cite > span:hover {
 }
 
 #heroText > h1 {
-        font-size: 1.563rem;
+        font-size: 20px;
         color: var(--White);
         margin: 0.25rem auto;
 
@@ -115,7 +115,7 @@ cite > span:hover {
 }
 
 #heroText > p { 
-    font-size: 0.875rem;
+    font-size: 18px;
     margin: 0.75rem auto;
     padding: 0.5rem 0;
     color: var(--SoftBlue);
@@ -151,7 +151,7 @@ cite > span:hover {
 .line {
     width: 85%;
     color: var(--Line);
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 /* Author Section */
@@ -176,12 +176,12 @@ cite > span:hover {
 
 @media screen and (min-width: 768px) {
     .cardContainer {
-        max-width: 40%;
+        max-width: 45%;
     }
 }
 
 @media screen and (min-width: 900px) {
     .cardContainer {
-        max-width: 325px;
+        max-width: 22.188rem;
     }
 }
