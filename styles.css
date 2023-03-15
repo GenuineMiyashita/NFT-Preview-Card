@@ -65,7 +65,7 @@ cite > span:hover {
 #heroImage {
     width: 275px;
     height: 275px;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     border-radius: 0.625rem;
 }
 
@@ -114,7 +114,9 @@ cite > span:hover {
 }
 
 #heroText > p { 
+    font-size: 0.875rem;
     margin: 1rem auto;
+    padding: 0.5rem 0;
     color: var(--SoftBlue);
 }
 
@@ -129,8 +131,7 @@ cite > span:hover {
 #priceCheck {
     justify-content: space-between;
     border-bottom: 1px solid var(--Line);
-    padding-bottom: 1rem;
-
+    padding-bottom: 1.5rem    
 }
 
 #priceImage,
