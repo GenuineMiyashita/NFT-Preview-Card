@@ -63,10 +63,11 @@ cite > span:hover {
 /* Hero Section */
 
 #heroImage {
-    width: 275px;
-    height: 275px;
-    margin: 1.5rem auto;
-    border-radius: 0.625rem;
+    width: 300px;
+    height: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 2px;
 }
 
 #image {
@@ -130,8 +131,7 @@ cite > span:hover {
 
 #priceCheck {
     justify-content: space-between;
-    border-bottom: 1px solid var(--Line);
-    padding-bottom: 1.5rem    
+    padding-bottom: 1rem;
 }
 
 #priceImage,
@@ -145,6 +145,11 @@ cite > span:hover {
 
 #time {
     color: var(--SoftBlue);
+}
+
+.line {
+    width: 85%;
+    color: var(--Line);
 }
 
 /* Author Section */
