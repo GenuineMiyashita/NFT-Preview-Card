@@ -147,10 +147,14 @@ cite > span:hover {
 #price {
     color: var(--Cyan);
     font-weight: 600;
+    width: 100%;
 }
 
 #time {
     color: var(--SoftBlue);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Author Section */
